@@ -1,8 +1,8 @@
 
 .nav
 {
+    
     height: 100px;
-    background-attachment: ;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -20,6 +20,17 @@
     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 800;    
     
+}
+
+.button
+{
+    color:green;
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-decoration-line: none;
+    a:hover { 
+        background-color: yellow;
+      }
 }
 
 #partners
@@ -47,6 +58,8 @@
 
 .container1
 {
+
+    margin-top: 10px;
     position: relative;
 }
 
@@ -92,10 +105,10 @@
 
 .title1
 {
-    padding-left: 50%;
+    padding-left: 60%;
     position: absolute;
     top: 70px;
-    right: 330px;
+    right: 270px;
     text-align: justify;
     color: white;
     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -117,8 +130,9 @@
 
 .container3
 {
-    height: 500px;
-    /* padding-top: ; */
+    display: flexbox;
+    justify-content: flex-end;
+    height: 320px;
     background-color:white;
     border-radius: 1rem;
     margin-top: 10px;
@@ -127,11 +141,9 @@
 
 .title2
 {
-    /* padding-left: ; */
-    /* position: absolute; */
+
     top: 40px;
     left: 40px;
-    /* text-align: center; */
     color:green;
     font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 650;
@@ -139,7 +151,7 @@
 .text3
 {
    
-    /* position: absolute; */
+
     top: 100px;
     left: 40px;
     text-align: left;
@@ -161,7 +173,15 @@
 
 .gtext
 {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 8%;
+    padding-top: 4%;
+    flex-direction: column;
+    align-items: center;
     left: 40px;
+    text-align: left;
 }
 
 .birdimg
@@ -171,4 +191,65 @@
     width: 320px;
     border-radius: 1rem;
  
+}
+.container4
+{
+    padding-top: 1%;
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 1rem;
+    background-color: #fff7d8;
+    text-align: center;
+}
+
+.title3
+{
+    
+
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    color:  green;
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    font-weight: 550;
+}
+
+.pics
+{
+    display: flex;
+    height: 62%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.partimg
+{
+    height: 100px;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 10px;
+    height: 50px;
+    background-color: green;
+
+}
+
+.footitems
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+
 }
